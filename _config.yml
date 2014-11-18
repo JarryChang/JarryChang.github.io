@@ -1,0 +1,36 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+permalink: /:year/:month/:day/:title.html
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: true
+markdown: kramdown
+
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: 沐风而歌
+
+description: 人文、科技、梦想
+# gavatar头像及Favicon
+gavatar: http://pic.yupoo.com/24plus/E2O4V5oL/medium.jpg
+favicon: http://pic.yupoo.com/24plus/E2O4V5oL/medium.jpg
+
+author:
+  name: 沐风
+  email: changyou0730@gmail.com
+  github: joshualeung
+  twitter: changyou
+  pinterest: changyou
+  linkedin: changyou
+  bio: 何谓洒脱，沐风而歌
+  email_md5: 726351295ec82e145928582f595aa3aa
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
