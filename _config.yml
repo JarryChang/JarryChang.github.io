@@ -16,17 +16,17 @@ defaults:
 
 description: 人文、科技、梦想
 # gavatar头像及Favicon
-gavatar: ftp://96.46.3.154/web/headImage.png
+gavatar: headImage.png
 favicon: ftp://96.46.3.154/web/headImage.png
 
 author:
   name: 沐风
   email: changyou0730@gmail.com
   github: JarryChang
-  twitter: changmufeng
-  pinterest: jarrychang
-  linkedin: changyou
-  bio: 我所乐兮，沐风而歌
+  weibo: u/3490688707
+  txweibo: changyou_2010
+  csdn: leochang130731
+  bio: 花海沐风，雪山踏月
   email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml

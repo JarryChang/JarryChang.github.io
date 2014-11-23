@@ -7,7 +7,7 @@ body{
 .sidebar {
 	position: fixed;
 	top: 0px;
-	padding-top: 10%;
+	padding-top: 8%;
 	background-color: #2c3e50;
 	color: #fff;
 }
@@ -36,7 +36,8 @@ a.nav-link i{
 }
 a.nav-link:hover { color: #777 }
 
-#bio {
+#
+ {
 	font-family: "Courier New", Courier, monospace;
 	font-size: 11px;
 	margin: 0 auto;
@@ -94,9 +95,19 @@ article{
 .article_body{
 	margin-top: 20px;
 	margin-bottom: 20px;
-	font-size: 20px;
-	line-height: 2em;
+	font-size: 18px;
+	line-height: 1.8em;
 	font-family: "Times New Roman", "Songti";
+}
+
+.article_body p{
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  /*   text-indent:2em;   */
+  /*   如果想文章内容段首空两格，加上上面一句话即可。 chang 14/11/22  */
 }
 
 .post-date {
