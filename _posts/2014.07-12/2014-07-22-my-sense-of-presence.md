@@ -2,7 +2,7 @@
 layout: post
 title: 我的存在感
 date: 2014-07-22 00:45:00
-category: 生活随笔
+category: 我的随笔
 tags: 杂记
 ---
 

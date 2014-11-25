@@ -3,7 +3,7 @@ layout: post
 title: 走在嘉兴
 date: 2014-10-16 17:27:00
 category: 旅行
-tags: 杂感
+tags: 杂记
 ---
 
 十一长假，若一直宅着，岂不可怜？于是出行。

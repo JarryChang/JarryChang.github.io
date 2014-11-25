@@ -1,20 +1,17 @@
 <! -- sidebar.html -->
-<header class="sidebar-header" role="banner">
 
+  <section class="ms-Page-header-bg" id="header_bg">
+         <object class="ms-Page-header-bg-svg" data="/startsBlink.svg" type="image/svg+xml"></object> 
+  </section>
+
+<header class="sidebar-header" role="banner">
     <a href="{{ site.BASE_PATH }}/">
-		  <!--  <img src="{{ site.gavatar }}" class="img-circle" />  -->
-		   <img src="headImage.png" class="img-circle" alt="headImage" /> 
-	</a>
+		   <img src="{{ site.gavatar }}" class="img-circle" />  
+    </a>
 	
-<!--
 	<h3 class="title">
           <a href="{{ site.BASE_PATH }}/">{{ site.title }}</a> 
-    </h3>
-    
--->
-     <section class="ms-Page-header-bg">
-      <object class="ms-Page-header-bg-svg" data="startsBlink.svg" type="image/svg+xml"></object>
-    </section>
+    </h3>  
 </header>
 
 {% if site.author.bio %}
@@ -35,7 +32,8 @@
 		{% if site.author.weibo %}
 		<li>
 			<a class="btn btn-default btn-sm" href="http://weibo.com/{{ site.author.weibo }}">
-				<i class="fa fa-twitter fa-lg"></i>
+				<!-- <i class="fa fa-twitter fa-lg"></i> -->  
+				<img src="/sinaLogo.png"  alt="新浪logo" height="18" width="16" align="middle"/>
 			</a>
 		</li>
 		{% endif %}
@@ -53,14 +51,16 @@
 		{% if site.author.txweibo %}
 		<li>
 			<a class="btn btn-default btn-sm" href="http://t.qq.com/{{ site.author.txweibo }}">
-				<i class="fa fa-pinterest fa-lg"></i>
+                    <!-- <i class="fa fa-pinterest fa-lg"></i> -->
+                   <img src="/txLogo.png"  alt="腾讯logo" height="15" width="14" align="middle"/>
 			</a>
 		</li>
 		{% endif %}
-		{% if site.author.csdn %}
+		{% if site.author.csdn %}  
 		<li>
 			<a class="btn btn-default btn-sm" href="http://blog.csdn.net/{{ site.author.csdn }}">
-				<i class="fa fa-linkedin fa-lg"></i>
+                    <!-- <i class="fa fa-linkedin fa-lg"></i> -->
+               <img src="/csdnLogo.png"  alt="csdn logo" height="17" width="16" align="middle"/>
 			</a>
 		</li>
 		{% endif %}
@@ -70,44 +70,10 @@
 			</a>
 		</li>
 	</ul>
+	<div id="summarize" class="text-center" style="margin-top:30px;"> 
+    <p style="font-size:16px;">凭栏一片风云气,来做神州袖手人。<br/> 文章我自甘沦落,不觅封侯但觅诗。</p>
 </div>
-
-<div id="summarize" class="text-center" style="width:270px;margin-top:20px;"> 
-    <p style="font-size:16px;text-indent:10px;">凭栏一片风云气,来做神州袖手人。</p>
 </div>
-<div id="summarize" class="text-center" style="width:270px;"> 
-    <p type="text" style="font-size:16px;text-indent:10px;">文章我自甘沦落,不觅封侯但觅诗。</p>
-</div>
-<!--
-<div id="summarize" class="text-center" style="width:270px;margin-top:40px;"> 
-    today is my moment,and now is my story...
-</div>
--->
-
-
-
-<!--
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta charset="utf-8">
-  <meta name="author" content="Ken Collins">
-  <meta name="google-site-verification" content="W3DG-CkoWHypH24OfrGmGbMezvhC6AyLql4jLI7hXhI">
-  <meta name="description" content="The personal blog of Ken Collins aka MetaSkills">
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="cleartype" content="on"> </head>
-  
- <body youdao="bind">
-    <section class="ms-Page is-Page">
- <header class="ms-Page-header">
-    <section class="ms-Page-header-bg">
-      <object class="ms-Page-header-bg-svg" data="startsBlink.svg" type="image/svg+xml"></object>
-    </section>
-  </header>
-  
-  </section>
--->
-
 	<!-- 添加我的谷歌分析GoogleAnalytics chang 14/11/22-->
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -121,7 +87,5 @@
 	</script>
 
 </body>
-
-
 
 <! -- sidebar.html end -->

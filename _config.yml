@@ -16,8 +16,9 @@ defaults:
 
 description: 人文、科技、梦想
 # gavatar头像及Favicon
-gavatar: headImage.png
+gavatar: /headImage.png
 favicon: ftp://96.46.3.154/web/headImage.png
+startsBlinkSvgFilePath: /startsBlink.svg
 
 author:
   name: 沐风
