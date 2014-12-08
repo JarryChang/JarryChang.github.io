@@ -2,7 +2,7 @@
 layout: post
 title: 北风那个吹
 date: 2014-12-06 23:59:00
-category: 生活随笔
+category: 生来修行
 tags: 总结
 ---
 
