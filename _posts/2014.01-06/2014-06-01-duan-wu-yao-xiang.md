@@ -1,10 +1,8 @@
 ---
 layout: post
 title: 端午遥想
-categories:
-- 我的随笔
-tags:
-- 生活
+categories:  我的随笔
+tags:  工作
 ---
 
 马上要端午节了，这让我不禁想到了 屈原，想到了《大秦帝国》里面那位可敬可爱的芈原。

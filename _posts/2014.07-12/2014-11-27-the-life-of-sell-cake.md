@@ -3,7 +3,7 @@ layout: post
 title: 卖饼人生
 date: 2014-11-27 22:51:00
 category: 生来修行
-tags: 杂记
+tags: 生活
 ---
 
 运气这东西，有时你不认还真不行。

@@ -1,10 +1,8 @@
 ---
 layout: post
 title:  一个IT者的周末
-categories:
-- 我的随笔
-tags:
-- 生活
+categories: 我的随笔
+tags: 生活
 ---
 
 连着忙了两三周，终于可以长舒一口气了，哎呀，这节奏...

@@ -1,10 +1,8 @@
 ---
 layout: post
 title:  Heal the world
-categories:
-- 我的随笔
-tags:
-- 生活
+categories: 我的随笔
+tags: 生活
 ---
 
 刚刚看完了胡军版的《朱元璋》，四十多集，算来也是花费了我两天两夜的时间了。不过感觉值！
