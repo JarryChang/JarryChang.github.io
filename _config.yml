@@ -17,7 +17,7 @@ defaults:
 description: 人文、科技、梦想
 # gavatar头像及Favicon
 gavatar: /headImage.png
-favicon: ftp://96.46.3.154/web/headImage.png
+favicon: /favicon.ico
 startsBlinkSvgFilePath: /startsBlink.svg
 
 author:
