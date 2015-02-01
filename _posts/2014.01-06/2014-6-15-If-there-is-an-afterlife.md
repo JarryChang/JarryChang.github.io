@@ -29,7 +29,7 @@ tags: 诗歌
 
 我就告别了青涩来到了壮年
 <br />
-
+<p></p>
 
 
 凌晨三四点
@@ -50,7 +50,7 @@ tags: 诗歌
 
 丁香一样的忧郁
 <br />
-
+<p></p>
 
 
 如果有来生
@@ -68,6 +68,6 @@ tags: 诗歌
 我再也不要这悲伤
  
 不要这孤寂
-
+<p></p>
 
 ![](http://changblogimages.qiniudn.com/2014-6-15-If-there-is-an-afterlife01.jpg)
